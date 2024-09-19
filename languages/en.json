@@ -1,0 +1,53 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Training",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+
+  "home": {
+    "home_text-1": "Hello! I am",
+    "home_text-3": "Front-End Web Developer",
+    "home_text-2": "Leyder Liñan",
+    "parrafo-info": "Systems Engineering student focused on Front-End Web Development. As a person who loves intuitive and aesthetically pleasing designs, I aim to create projects that provide the best user experience.",
+    "cv_button": "Download CV",
+    "contact_button": "Contact"
+},
+
+
+   "sobre-mi": {
+    "title": "About Me",
+    "texto_sobreMi": "I am a Systems Engineering student and a self-taught Web Development student focused on Front-End programming.<br>I aspire to find employment in the Web Development world, gain experience, acquire new knowledge, and strengthen my professional life.<br><br>I am an empathetic and enthusiastic person, with skills focused on teamwork, assertive communication, problem-solving, responsibility, and proactivity. I enjoy learning from others and continuously improving myself."
+},
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "Training",
+        "formacion1": "Systems engineering",
+        "tiempo-formacion1": "2019 - In progress",
+        "formacion2": "Full-Stack Developer",
+        "tiempo-formacion2": "2022 - In progress",
+        "formacion3": "BUILDING DATABASES WITH MYSQL"
+    },
+
+   "proyectos": {
+    "title": "Projects",
+    "title-proyecto1": "IN PROGRESS TO UPLOAD",
+    "info-proyecto1": "IN PROGRESS TO UPLOAD PROJECT",
+    "title-proyecto2": "Portfolio",
+    "info-proyecto2": "My personal web portfolio, where some of my most notable projects, my technical skills, and a bit about my education can be found.",
+    "title-proyecto3": "Billing",
+    "info-proyecto3": "IN PROGRESS TO UPLOAD"
+},
+
+    "contacto": {
+        "title": "Contact",
+        "text": "Complete the form below and I will contact you as soon as possible.",
+        "btn-enviar": "Send"
+    }
+}
