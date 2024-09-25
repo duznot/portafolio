@@ -36,8 +36,8 @@
 
     "proyectos": {
         "title": "Proyectos",
-        "title-proyecto1": "EN PROGRESO DE SUBIR",
-        "info-proyecto1": "EN CURSO DE SUBIR PROYECTO",
+        "title-proyecto1": "Generadora de QR",
+        "info-proyecto1": "Este proyecto es una aplicación web que te permite generar códigos QR de forma fácil y gratuita.",
         "title-proyecto2": "Portafolio",
         "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
         "title-proyecto3": "Facturacion",

@@ -37,8 +37,8 @@
 
    "proyectos": {
     "title": "Projects",
-    "title-proyecto1": "IN PROGRESS TO UPLOAD",
-    "info-proyecto1": "IN PROGRESS TO UPLOAD PROJECT",
+    "title-proyecto1": "QR generator",
+    "info-proyecto1": "This project is a web application that allows you to generate QR codes easily and for free.",
     "title-proyecto2": "Portfolio",
     "info-proyecto2": "My personal web portfolio, where some of my most notable projects, my technical skills, and a bit about my education can be found.",
     "title-proyecto3": "Billing",
