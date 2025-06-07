@@ -6,7 +6,7 @@
 
 :root {
     --white: #FFFFFF;
-    --light-grey: #b2b2c9;
+    --light-grey: #ffffff;
     --beaver: #253080;  
     --black: #5362e6;
     --eerie-black: #3c4294;
@@ -542,7 +542,7 @@ span+span {
 }
 
 img.logo-unal {
-    width: 24rem;
+    width: 18rem;
 }
 
 img.logo-one {
