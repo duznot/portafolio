@@ -24,7 +24,11 @@
     "habilidades": {
         "title": "Habilidades"
     },
-
+    "contactoc": {
+    "title-correo": "Email",
+    "email": "linanchavezleider@gmail.com"
+    
+  },
     "formacion": {
         "title": "Formación",
         "formacion1": "Ingerieria Sistemas",

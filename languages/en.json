@@ -35,6 +35,13 @@
         "formacion3": "BUILDING DATABASES WITH MYSQL"
     },
 
+  "contactoc": {
+    "title-correo": "Correo",
+    "email": "linanchavezleider@gmail.com"
+    
+  },
+
+
    "proyectos": {
     "title": "Projects",
     "title-proyecto1": "QR generator",

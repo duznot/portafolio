@@ -3,6 +3,42 @@
     src: url('../fonts/CooperHewitt-Light.woff') format('woff'),
     url('../fonts/CooperHewitt-Thin.woff') format('woff');
 }
+.cartac {
+  width: 100%;
+  background-color: var(--beaver);
+  border-radius: 24px;
+  padding: 3rem;
+  position: relative;
+  color: var(--textoo);
+  margin: 2rem auto;  /* margen arriba/abajo + centrado horizontal */
+  box-sizing: border-box;
+  text-align: center; /* centra el texto dentro del div */
+}
+
+/* Responsive para pantallas más anchas */
+@media screen and (min-width: 760px) {
+  .cartac {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .cartac {
+    width: 50%;
+  }
+}
+
+.cartac h3 {
+  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.cartac p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
 
 :root {
     --white: #FFFFFF;
