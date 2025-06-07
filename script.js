@@ -37,6 +37,12 @@ btn.addEventListener('click', function() {
 /*===== Cambio de idioma =====*/
 const changeLanguage = async language => {
     const requestJson = await fetch(`./languages/${language}.json`);
+    if (!requestJson.ok) {
+        console.error('Error fetching language file:', requestJson.statusText);
+        return;
+    }
+
+
     const texts = await requestJson.json();
 
     for(const textToChange of textsToChange) {
@@ -48,8 +54,14 @@ const changeLanguage = async language => {
 }
 
 flagsElement.addEventListener('click', (e) => {
-    changeLanguage(e.target.parentElement.dataset.language);
-})
+    const language = e.target.parentElement?.dataset?.language;
+    if (language) {
+        changeLanguage(language);
+    } else {
+        console.warn('No se encontró el atributo data-language en el elemento padre');
+    }
+});
+
 
 /*===== class active por secciones =====*/
 window.addEventListener('scroll', () => {
